@@ -26,7 +26,7 @@ const App = () => {
           <AddUserForm addUser={addUser} />
         </div>
         <div className="flex-large">
-          <h2>liste d'utlisateur:</h2>
+          <h2>liste d'utilisateur:</h2>
        
           <UserTable users={users} deleteUser={deleteUser} />
         </div>
